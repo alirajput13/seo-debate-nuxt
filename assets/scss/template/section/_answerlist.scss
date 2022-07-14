@@ -1,0 +1,44 @@
+.add-comment-section {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-top: 25px;
+}
+
+.answer-comment-widget.comment-widget {
+	border: 0;
+	.comment-item {
+		margin-bottom: 0;
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+	.comment-item-child {
+		margin-bottom: 0;
+		&:last-child {
+			border-bottom: 0;
+		}
+	}
+}
+
+@include media-breakpoint-up(lg) {
+	.answer-comment-widget.comment-widget {
+		.question-card .question-subtext,
+		.reply-widget {
+			padding-left: 50px;
+		}
+	}
+}
+
+@media (max-width: 425px) {
+	.recommand-badge {
+		position: absolute;
+	    right: 13px;
+	    top: 15px;
+	}
+}
+
+@media (max-width: 320px) {
+	.question-card .meta-text {
+		font-size: 13px;
+	}
+}

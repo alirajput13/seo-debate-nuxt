@@ -1,0 +1,47 @@
+[
+  {
+      "iconcolor": "primary--text primary-lighten-5",
+      "imgbg": "icon1",
+      "username": "Mark Freeman",
+      "time": "On Sep 25, 2020",
+      "commenttext": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem  since the 1500s, when an unknown printer took a galley of type.",
+      "children": [
+        {
+          "iconcolor": "success--text success-lighten-5",
+          "imgbg": "icon6",
+          "username": "Mark Freeman",
+          "time": "On Sep 25, 2020",
+          "commenttext": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem  since the 1500s, when an unknown printer took a galley of type.",
+        },
+      ]
+    },
+    {
+      "iconcolor": "warning--text warning-lighten-5",
+      "imgbg": "icon2",
+      "username": "Mark Freeman",
+      "time": "On Sep 25, 2020",
+      "commenttext": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem  since the 1500s, when an unknown printer took a galley of type."
+    },
+    {
+      "iconcolor": "error--text error-lighten-5",
+      "imgbg": "icon3",
+      "username": "Mark Freeman",
+      "time": "On Sep 25, 2020",
+      "commenttext": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem  since the 1500s, when an unknown printer took a galley of type."
+    },
+    {
+      "iconcolor": "info--text info-lighten-5",
+      "imgbg": "icon4",
+      "username": "Mark Freeman",
+      "time": "On Sep 25, 2020",
+      "commenttext": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem  since the 1500s, when an unknown printer took a galley of type."
+    },
+    {
+      "iconcolor": "accent--text accent-lighten-5",
+      "imgbg": "icon5",
+      "username": "Mark Freeman",
+      "time": "On Sep 25, 2020",
+      "commenttext": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem  since the 1500s, when an unknown printer took a galley of type."
+    }
+  
+]

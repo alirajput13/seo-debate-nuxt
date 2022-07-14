@@ -1,0 +1,42 @@
+[
+  {
+    "img": "/img/blank-img.jpg",
+    "link": "meta-tag-length-counter",
+    "title": "Meta Tag Length Counter",
+    "categorytitle": "On Page Seo",
+    "categorylink": "/",
+    "trynow":true,
+    "featured":true,
+    "subtext": "How many characters can I have in my title and meta descripton? How many characters is this!? Save a few seconds and paste your title tag here and check the length of your character string."
+  },
+  {
+    "img": "/img/blank-img.jpg",
+    "link": "faq-page-json-ld-schema-generator",
+    "title": "FAQ Page JSON-LD Schema Generator",
+    "categorytitle": "Technical Seo",
+    "categorylink": "/",
+    "trynow":true,
+    "featured":false,
+    "subtext": "The FAQ Page Schema Generator is one of my new JSON-LD Schema Generators that can help you quickly create the required structured data for your content to be eligible for display as a rich result in Google search. "
+  },
+  {
+    "img": "/img/blank-img.jpg",
+    "link": "disavow-file-generator",
+    "title": "Disavow File Generator",
+    "categorytitle": "On Page Seo",
+    "categorylink": "/",
+    "trynow":true,
+    "featured":false,
+    "subtext": "Disavow file generator will help you to extract domains from your Toxic URLs or inbound links. So you can upload disavow file in google search console. "
+  },
+  {
+    "img": "/img/blank-img.jpg",
+    "link": "toxic-backlink-checker",
+    "title": "Toxic Backlink Checker",
+    "categorytitle": "On Page Seo",
+    "categorylink": "/",
+    "trynow":false,
+    "featured":false,
+    "subtext": "How many characters can I have in my title and meta descripton? How many characters is this!? Save a few seconds and paste your title tag here and check the length of your character string. "
+  }
+]

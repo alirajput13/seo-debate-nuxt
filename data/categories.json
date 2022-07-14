@@ -1,0 +1,92 @@
+[
+	{
+		"id": 1,
+		"title" : "Vertical SEO",
+		"to": "/category/vertical-seo",
+		"subtext":"These days there are many career choices to take."
+	},
+	{	
+		"id": 2,
+		"title" : "Global SEO",
+		"to": "/category/global-seo",
+		"subtext":"These days there are many career choices to take."
+	},
+	{	
+		"id": 3,
+		"title" : "Algoritham Updates",
+		"to": "/category/algoritham-updates",
+		"subtext":"These days there are many career choices to take."
+	},
+	{	
+		"id": 4,
+		"title" : "Local SEO",
+		"to": "/category/local-seo",
+		"subtext":"These days there are many career choices to take."
+	},  
+	{	
+		"id": 5,
+		"title" : "Bing SEO",
+		"to": "/category/bing-seo",
+		"subtext":"These days there are many career choices to take."
+	},
+	{	
+		"id": 6,
+		"title" : "SEO Tools",
+		"to": "/category/seo-tools",
+		"subtext":"These days there are many career choices to take."
+	}, 
+	{	
+		"id": 7,
+		"title" : "Youtube SEO",
+		"to": "/category/youtube-seo",
+		"subtext":"These days there are many career choices to take."
+	},
+	{	
+		"id": 8,
+		"title" : "Yondex SEO",
+		"to": "/category/yondex-seo",
+		"subtext":"These days there are many career choices to take."
+	},  
+	{	
+		"id": 9,
+		"title" : "SEO Techniques",
+		"to": "/category/seo-techniques",
+		"subtext":"These days there are many career choices to take."
+	},
+	{	
+		"id": 10,
+		"title" : "Image SEO",
+		"to": "/category/image-seo",
+		"subtext":"These days there are many career choices to take."
+	}, 
+	{	
+		"id": 11,
+		"title" : "Baidu SEO",
+		"to": "/category/baidu-seo",
+		"subtext":"These days there are many career choices to take."
+	},
+	{	
+		"id": 12,
+		"title" : "Identification",
+		"to": "/category/identification",
+		"subtext":"These days there are many career choices to take."
+	},
+	{	
+		"id": 13,
+		"title" : "Technical SEO",
+		"to": "/category/technical-seo",
+		"subtext":"These days there are many career choices to take."
+	},
+	{	
+		"id": 14,
+		"title" : "On Page SEO",
+		"to": "/category/on-page-seo",
+		"subtext":"These days there are many career choices to take."
+	},
+	{	
+		"id": 15,
+		"title" : "Off Page SEO",
+		"to": "/category/off-page-seo",
+		"subtext":"These days there are many career choices to take."
+	}               
+]

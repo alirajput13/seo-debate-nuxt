@@ -1,0 +1,201 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+@import "~vuetify/src/styles/tools/_functions.sass";
+
+// ==================================== //
+// Global Settings
+// ==================================== //
+$font-size-root: 16px;
+$body-font-family: "Averta-Regular", sans-serif !default;
+
+// ==================================== //
+// Button Settings
+// ==================================== //
+$btn-border-radius: 4px;
+$btn-font-weight: 500;
+$btn-letter-spacing: 0 !default;
+$btn-text-transform: none;
+
+$btn-sizes: () !default;
+$btn-sizes: map-deep-merge(
+  (
+    "x-small": 20,
+    "small": 36,
+    "default": 40,
+    "large": 59,
+    "x-large": 52
+  ),
+  $btn-sizes
+);
+
+$btn-font-sizes: () !default;
+$btn-font-sizes: map-deep-merge(
+  (
+    "x-small": 0.625rem,
+    "small": 0.75rem,
+    "default": 0.875rem,
+    "large": 1.125rem,
+    "x-large": 1rem
+  ),
+  $btn-font-sizes
+);
+
+// ==================================== //
+// Color Settings
+// ==================================== //
+$color-pack: false;
+
+// ==================================== //
+// Border
+// ==================================== //
+$border-radius-root: 6px !default;
+
+// ==================================== //
+// Headings
+// ==================================== //
+$heading-font-family: "AvertaCY-Bold", sans-serif !default;
+
+$headings: () !default;
+$headings: map-deep-merge(
+  (
+    "h1": (
+      "size": 36px,
+      "weight": 500,
+      "line-height": 36px,
+      "letter-spacing": normal,
+      "text-transform": false
+    ),
+    "h2": (
+      "size": 30px,
+      "weight": 500,
+      "line-height": 30px,
+      "letter-spacing": normal,
+      "text-transform": false
+    ),
+    "h3": (
+      "size": 24px,
+      "weight": 500,
+      "line-height": 24px,
+      "letter-spacing": normal,
+      "text-transform": false
+    ),
+    "h4": (
+      "size": 21px,
+      "weight": 500,
+      "line-height": 18px,
+      "letter-spacing": normal,
+      "text-transform": false
+    ),
+    "h5": (
+      "size": 18px,
+      "weight": 500,
+      "line-height": 16px,
+      "letter-spacing": normal,
+      "text-transform": false
+    ),
+    "h6": (
+      "size": 14px,
+      "weight": 500,
+      "line-height": 14px,
+      "letter-spacing": 0.0125em,
+      "text-transform": false
+    ),
+    "subtitle-1": (
+      "size": 1rem,
+      "weight": normal,
+      "line-height": 1.75rem,
+      "letter-spacing": 0.009375em,
+      "text-transform": false
+    ),
+    "subtitle-2": (
+      "size": 0.875rem,
+      "weight": 500,
+      "line-height": 1.375rem,
+      "letter-spacing": 0.0071428571em,
+      "text-transform": false
+    ),
+    "body-1": (
+      "size": 1rem,
+      "weight": 400,
+      "line-height": 1.5rem,
+      "letter-spacing": 0.03125em,
+      "text-transform": false
+    ),
+    "body-2": (
+      "size": 0.875rem,
+      "weight": 400,
+      "line-height": 1.25rem,
+      "letter-spacing": 0.0178571429em,
+      "text-transform": false
+    ),
+    "button": (
+      "size": 0.875rem,
+      "weight": 500,
+      "line-height": 2.25rem,
+      "letter-spacing": 0.0892857143em,
+      "text-transform": uppercase
+    ),
+    "caption": (
+      "size": 0.75rem,
+      "weight": 400,
+      "line-height": 1.25rem,
+      "letter-spacing": 0.0333333333em,
+      "text-transform": false
+    ),
+    "overline": (
+      "size": 0.75rem,
+      "weight": 500,
+      "line-height": 2rem,
+      "letter-spacing": 0.1666666667em,
+      "text-transform": uppercase
+    )
+  ),
+  $headings
+);
+
+// ==================================== //
+// Grid
+// ==================================== //
+$spacer: 2px !default;
+$grid-gutter: $spacer * 16 !default;
+
+$grid-breakpoints: () !default;
+$grid-breakpoints: map-deep-merge(
+  (
+    "xs": 0,
+    "sm": 576px,
+    "md": 768px,
+    "lg": 992px,
+    "xl": 1600px
+  ),
+  $grid-breakpoints
+);
+
+// Container
+
+$container-max-widths: () !default;
+$container-max-widths: map-deep-merge(
+  (
+    "md": 720px,
+    "lg": 1140px,
+    "xl": 1170px
+  ),
+  $container-max-widths
+);
+
+// ==================================== //
+// Card
+// ==================================== //
+$card-actions-padding: 30px !default;
+$card-subtitle-padding: 30px !default;
+$card-elevation: 1 !default;
+
+// Form Input
+$input-font-size: 18px !default;
+
+$label-font-size: 18px !default;
+
+// List
+// $list-item-title-font-size: 17px;
+// $list-item-title-font-size: map-deep-get($headings, "h4", "size") !default;

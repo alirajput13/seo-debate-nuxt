@@ -1,0 +1,103 @@
+[
+	{
+		"id": 1,
+		"title" : "Home",
+		"dd":false,
+		"icon": "mdi-arrow-right",
+		"to": "/"
+	},
+	{	
+		"id": 2,
+		"title" : "Explore",
+		"dd":true,
+		"icon": "mdi-arrow-right",
+		"to": "/asf",
+		"disabled": true,
+		"mega": true,
+		"children": [
+		{
+			"title" : "Vertical SEO",
+			"to": "/category/vertical-seo"
+		},
+		{	
+			"title" : "Global SEO",
+			"to": "/category/global-seo"
+		},
+		{	
+			"title" : "Algoritham Updates",
+			"to": "/category/algoritham-updates"
+		},
+		{	
+			"title" : "Local SEO",
+			"to": "/category/local-seo"
+		},  
+		{	
+			"title" : "Bing SEO",
+			"to": "/category/bing-seo"
+		},
+		{	
+			"title" : "SEO Tools",
+			"to": "/category/seo-tools"
+		}, 
+		{	
+			"title" : "Youtube SEO",
+			"to": "/category/youtube-seo"
+		},
+		{	
+			"title" : "Yondex SEO",
+			"to": "/category/yondex-seo"
+		},  
+		{	
+			"title" : "SEO Techniques",
+			"to": "/category/seo-techniques"
+		},
+		{	
+			"title" : "Image SEO",
+			"to": "/category/image-seo"
+		}, 
+		{	
+			"title" : "Baidu SEO",
+			"to": "/category/baidu-seo"
+		} ]
+	},
+	{	
+		"id": 3,
+		"title" : "Questions",
+		"dd":false,
+		"icon": "mdi-arrow-right",
+		"to": "/questions/"
+		
+	},
+	{	
+		"id": 4,
+		"title" : "Videos",
+		"dd":false,
+		"icon": "mdi-arrow-right",
+		"to": "/Videos"
+		
+	},  
+	{	
+		"id": 5,
+		"title" : "Articles",
+		"dd":false,
+		"icon": "mdi-arrow-right",
+		"to": "/articles/"
+		
+	},
+	{	
+		"id": 6,
+		"title" : "Resources",
+		"dd":false,
+		"icon": "mdi-arrow-right",
+		"to": "/resources/"
+		
+	}, 
+	{	
+		"id": 7,
+		"title" : "Tools",
+		"dd":false,
+		"icon": "mdi-arrow-right",
+		"to": "/inspire"
+		
+	}     
+]

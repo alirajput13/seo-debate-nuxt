@@ -1,0 +1,39 @@
+.learn-seo-wrapper {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.listing-box {
+  padding: 30px 40px 25px 40px;
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+
+.v-application a.seo-type-item {
+  color: $blue;
+  padding: 10px 0;
+  &:hover {
+    color: $light-blue-1;
+  }
+}
+
+.list-spacer {
+  margin-top: 40px;
+}
+
+.listing-side-img {
+  position: relative;
+  bottom: -45px;
+  max-width: 345px;
+}
+
+@media (max-width: 767px) {
+  .listing-box {
+    padding: 30px 20px 25px 20px;
+  }
+  .v-application a.seo-type-item {
+    padding: 7px 0;
+  }
+}

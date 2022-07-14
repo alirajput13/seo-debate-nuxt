@@ -1,0 +1,19 @@
+.faqs-section {
+	padding-top: 55px;
+    border-top: 1px solid $border-color;
+}
+.blue--text{
+    color: $blue;
+}
+
+@media (max-width: 767px) {
+	.faqs-section {
+		padding-top: 20px;
+	}
+}
+
+.no-underline {
+	.faqs-section {
+	    border-top: 0;
+	}
+}

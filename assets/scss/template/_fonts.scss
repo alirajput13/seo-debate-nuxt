@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "AvertaCY-Semibold";
+  src: url("../fonts/AvertaCY-Semibold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Averta-Regular";
+  src: url("../fonts/Averta-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AvertaCY-Bold";
+  src: url("../fonts/AvertaCY-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "AvertaPE-Light";
+  src: url("../fonts/AvertaPE-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-weight-semibold {
+  font-family: "AvertaCY-Semibold", sans-serif;
+}
+
+.font-weight-regular {
+  font-family: "Averta-Regular", sans-serif;
+}
+
+.font-weight-bold {
+  font-family: "AvertaCY-Bold", sans-serif;
+}
+
+.font-weight-light {
+  font-family: "AvertaPE-Light", sans-serif;
+}
+.swal2-container.swal2-center {
+  font-family: "AvertaPE-Light", sans-serif;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-21 {
+  font-size: 21px;
+}
+
+.font-24 {
+  font-size: 24px;
+}

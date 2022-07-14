@@ -1,0 +1,95 @@
+.resource-card {
+  margin-bottom: 30px;
+  position: relative;
+  &.with-question {
+    .v-card__text {
+      padding: 35px 30px;
+    }
+    .resource-title {
+      font-size: 21px;
+    }
+    .title-area {
+      padding: 0 !important;
+    }
+    .height-setting {
+      min-height: 190px;
+    }
+  }
+  .v-card__text {
+    padding: 40px;
+    .title-area {
+      padding: 25px;
+      -webkit-box-flex: 1;
+      flex: 1 0 auto;
+    }
+  }
+  .resource-title {
+    font-size: 24px;
+  }
+  .download-counter {
+    padding: 40px 0 0 25px;
+  }
+  .height-setting {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    min-height: 282px;
+  }
+}
+
+.bottom-spacer {
+  padding-bottom: 60px;
+}
+
+.resource-tips-wrapper {
+  padding-top: 120px;
+}
+
+@media (max-width: 767px) {
+  .resource-card {
+    .v-card__text {
+      padding: 20px;
+      .title-area {
+        padding: 0;
+      }
+    }
+    .resource-title {
+      font-size: 20px;
+    }
+    .download-counter {
+      padding-left: 0;
+    }
+  }
+  .featured-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .resource-card {
+    .download-counter,
+    .v-card__text .title-area {
+      padding-left: 0;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .resource-card.with-question .v-card__text {
+    padding: 35px 23px !important;
+  }
+  .related-title.text-h2 {
+    font-size: 24px !important;
+  }
+  .font-30 {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .responsive-img {
+    max-width: 100%;
+  }
+}

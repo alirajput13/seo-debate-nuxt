@@ -1,0 +1,100 @@
+.theme--light,
+.theme--dark {
+  &.v-input input::placeholder,
+  &.v-input textarea::placeholder {
+    color: $input-text-color !important;
+  }
+}
+
+.theme--light {
+  &.v-icon {
+    color: $blue;
+  }
+}
+
+.theme--light.v-select .v-select__selection--comma,
+.theme--light.v-input input,
+.theme--light.v-input textarea {
+  color: $light-blue;
+  font-size: 16px;
+}
+
+// checkbox
+
+.v-input--selection-controls .v-input__slot > .v-label,
+.v-input--selection-controls .v-radio > .v-label {
+  font-size: 14px;
+  color: $blue;
+  font-family: "AvertaCY-Semibold";
+  white-space: nowrap;
+}
+
+.v-input--selection-controls__input {
+  .v-icon {
+    color: $gray-400;
+  }
+}
+
+// .v-text-field.v-input--is-focused > .v-input__control > .v-input__slot::after {
+//   border-color: unset !important;
+//   border-style: unset !important;
+//   border-width: unset !important;
+//   transform: unset !important;
+// }
+
+.no-underline .v-text-field > .v-input__control > .v-input__slot:before,
+.no-underline .v-text-field > .v-input__control > .v-input__slot:after {
+  display: none;
+}
+
+.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat)
+  > .v-input__control
+  > .v-input__slot {
+  box-shadow: none;
+}
+
+.form-line-control {
+  &.margin-0 {
+    .v-input__control {
+      margin-bottom: 0;
+    }
+  }
+  .v-input__control {
+    margin-bottom: 20px;
+    > .v-input__slot {
+      min-height: 48px;
+    }
+  }
+  &.v-text-field--outlined fieldset {
+    border-color: $border-color;
+  }
+
+  .v-label {
+    top: 14px;
+  }
+
+  .v-label,
+  .v-input input,
+  .v-input textarea {
+    color: $light-blue;
+    font-size: 16px;
+  }
+  &.form-line-lg {
+    .v-label {
+      top: 18px;
+    }
+    .v-input__control > .v-input__slot {
+      min-height: 57px;
+    }
+  }
+  // new
+  .v-select__selection--comma {
+    line-height: 22px;
+  }
+  .v-input__prepend-inner {
+    margin-top: 13px;
+  }
+  .v-icon {
+    font-size: 21px;
+  }
+}

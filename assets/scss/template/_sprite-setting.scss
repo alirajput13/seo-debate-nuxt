@@ -1,0 +1,413 @@
+// -------------------------------------
+// Header
+// -------------------------------------
+
+.sprite-img {
+  background: url("~assets/images/icon-sprite-img.png");
+  display: inline-block;
+}
+
+.theme-logo {
+  background-position: top -11px left -18px;
+  width: 180px;
+  height: 35px;
+}
+
+.grow-img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  &.grow1 {
+    background-position: top -70px left -18px;
+  }
+  &.grow2 {
+    background-position: top -70px left -70px;
+  }
+  &.grow3 {
+    background-position: top -70px left -130px;
+  }
+}
+
+.feature-icon {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  &.feature1 {
+    background-position: top -122px left -18px;
+  }
+  &.feature2 {
+    background-position: top -122px left -83px;
+  }
+  &.feature3 {
+    background-position: top -122px left -150px;
+  }
+  &.feature4 {
+    background-position: top -122px left -213px;
+  }
+}
+
+.client-icon {
+  vertical-align: middle;
+  &.client1 {
+    width: 78px;
+    height: 35px;
+    background-position: top -182px left -17px;
+  }
+  &.client2 {
+    width: 198px;
+    height: 35px;
+    background-position: top -182px left -101px;
+  }
+  &.client3 {
+    width: 152px;
+    height: 35px;
+    background-position: top -220px left -13px;
+  }
+  &.client4 {
+    width: 82px;
+    height: 35px;
+    background-position: top -220px left -172px;
+  }
+  &.client5 {
+    width: 185px;
+    height: 35px;
+    background-position: top -257px left -2px;
+  }
+}
+
+.featured-card-icon {
+  vertical-align: middle;
+  &.icon1 {
+    width: 30px;
+    height: 30px;
+    background-position: top -300px left -6px;
+  }
+  &.icon2 {
+    width: 30px;
+    height: 30px;
+    background-position: top -300px left -39px;
+  }
+  &.icon3 {
+    width: 30px;
+    height: 30px;
+    background-position: top -300px left -75px;
+  }
+  &.icon4 {
+    width: 30px;
+    height: 30px;
+    background-position: top -300px left -115px;
+  }
+  &.icon5 {
+    width: 30px;
+    height: 30px;
+    background-position: top -300px left -155px;
+  }
+  &.icon6 {
+    width: 30px;
+    height: 30px;
+    background-position: top -298px left -194px;
+  }
+}
+
+.seo-featured-card-icon {
+  vertical-align: middle;
+  &.icon1 {
+    width: 40px;
+    height: 40px;
+    background-position: top -338px left -4px;
+  }
+  &.icon2 {
+    width: 40px;
+    height: 40px;
+    background-position: top -338px left -52px;
+  }
+  &.icon3 {
+    width: 40px;
+    height: 40px;
+    background-position: top -341px left -99px;
+  }
+  &.icon4 {
+    width: 40px;
+    height: 40px;
+    background-position: top -338px left -150px;
+  }
+  &.icon5 {
+    width: 40px;
+    height: 40px;
+    background-position: top -338px left -203px;
+  }
+  &.icon6 {
+    width: 40px;
+    height: 40px;
+    background-position: top -336px left -252px;
+  }
+}
+
+.social-icon {
+  &.facebook {
+    width: 30px;
+    height: 30px;
+    background-position: top -270px left -264px;
+  }
+  &.twitter {
+    width: 30px;
+    height: 30px;
+    background-position: top -270px left -302px;
+  }
+  &.linkedin {
+    width: 30px;
+    height: 30px;
+    background-position: top -270px left -341px;
+  }
+  &.facebook-hover {
+    width: 30px;
+    height: 30px;
+    background-position: top -300px left -264px;
+    &:hover {
+      background-position: top -270px left -264px;
+    }
+  }
+  &.twitter-hover {
+    width: 30px;
+    height: 30px;
+    background-position: top -300px left -302px;
+    &:hover {
+      background-position: top -270px left -302px;
+    }
+  }
+  &.linkedin-hover {
+    width: 30px;
+    height: 30px;
+    background-position: top -300px left -341px;
+    &:hover {
+      background-position: top -270px left -341px;
+    }
+  }
+}
+
+.comment-user-img {
+  &.icon1 {
+    width: 30px;
+    height: 30px;
+    background-position: top -387px left -8px;
+  }
+  &.icon2 {
+    width: 30px;
+    height: 30px;
+    background-position: top -387px left -68px;
+  }
+  &.icon3 {
+    width: 30px;
+    height: 30px;
+    background-position: top -387px left -98px;
+  }
+  &.icon4 {
+    width: 30px;
+    height: 30px;
+    background-position: top -387px left -127px;
+  }
+  &.icon5 {
+    width: 30px;
+    height: 30px;
+    background-position: top -387px left -156px;
+  }
+  &.icon6 {
+    width: 30px;
+    height: 30px;
+    background-position: top -387px left -38px;
+  }
+}
+
+.article-quote-img {
+  height: 48px;
+  width: 57px;
+  background-position: top -387px left -209px;
+}
+
+.answer-icon {
+  height: 28px;
+  width: 28px;
+  background-position: top -460px left -13px;
+}
+
+.like-icon {
+  height: 28px;
+  width: 28px;
+  background-position: top -462px left -49px;
+}
+
+.hover-blue {
+  &:hover {
+    .like-icon {
+      height: 28px;
+      width: 28px;
+      background-position: top -491px left -50px;
+    }
+  }
+}
+.share-icon {
+  height: 28px;
+  width: 28px;
+  background-position: top -460px left -114px;
+}
+.hover-blue {
+  &:hover {
+    .share-icon {
+      height: 28px;
+      width: 28px;
+      background-position: top -488px left -114px;
+    }
+  }
+}
+.hover-blue.active {
+    .like-icon {
+      height: 28px;
+      width: 28px;
+      background-position: top -491px left -50px;
+    }
+    color: $blue-2 !important;
+}
+
+.plus-icon {
+  height: 28px;
+  width: 28px;
+  background-position: top -460px left -143px;
+}
+.dislike-icon {
+  height: 28px;
+  width: 28px;
+  background-position: top -460px left -79px;
+}
+
+.hover-blue {
+  &:hover {
+    .dislike-icon {
+      height: 28px;
+      width: 28px;
+      background-position: top -489px left -79px;
+    }
+  }
+}
+
+.hover-blue.active {
+    .dislike-icon {
+        height: 28px;
+        width: 28px;
+        background-position: top -489px left -79px;
+    }
+}
+.comment-icon {
+  height: 28px;
+  width: 28px;
+  background-position: top -544px left -209px;
+}
+
+.hover-blue {
+  &:hover {
+    .comment-icon {
+      height: 28px;
+      width: 28px;
+      background-position: top -544px left -245px;
+    }
+  }
+}
+
+.ask-question-img {
+  width: 220px;
+  height: 60px;
+  background-position: top -474px left -152px;
+  margin-top: -45px;
+}
+
+.c2a-comment-icon {
+  width: 35px;
+  height: 35px;
+  background-position: top -541px left -12px;
+}
+
+.category-icon {
+  width: 33px;
+  height: 33px;
+  &.category1 {
+    background-position: top -544px left -63px;
+  }
+  &.category2 {
+    background-position: top -544px left -98px;
+  }
+  &.category3 {
+    background-position: top -544px left -133px;
+  }
+  &.category4 {
+    background-position: top -544px left -168px;
+  }
+}
+
+.file-icon {
+  width: 61px;
+  height: 61px;
+  background-position: top -535px left -282px;
+}
+
+.download-icon {
+  width: 61px;
+  height: 61px;
+  background-position: top -536px left -340px;
+}
+
+.download-count-icon {
+  height: 25px;
+  width: 20px;
+  background-position: top -421px left -14px;
+}
+
+.file-type {
+  width: 25px;
+  height: 30px;
+  &.pdf {
+    background-position: top -12px left -357px;
+  }
+  &.doc {
+    background-position: top -120px left -357px;
+  }
+  &.docx {
+    background-position: top -120px left -357px;
+  }
+  &.pptx {
+    background-position: top -83px left -358px;
+  }
+  &.ppt {
+    background-position: top -83px left -358px;
+  }
+  &.xls {
+    background-position: top -51px left -357px;
+  }
+  &.xlsx {
+    background-position: top -51px left -357px;
+  }
+}
+
+.highlight {
+  width: 30px;
+  height: 30px;
+  &.icon1 {
+    background-position: top -358px left -353px;
+  }
+  &.icon2 {
+    background-position: top -397px left -353px;
+  }
+  &.icon3 {
+    background-position: top -433px left -353px;
+  }
+}
+
+.join-img {
+  width: 60px;
+  height: 60px;
+  background-position: top -18px left -235px;
+}
+
+.arrow-img {
+  width: 30px;
+  height: 30px;
+  background-position: top -37px left -305px;
+}

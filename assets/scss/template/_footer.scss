@@ -1,0 +1,21 @@
+.theme--light.v-footer {
+    background: white url('/img/footer-bg-img.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+}
+.v-application .v-footer a.seo-type-item {
+  padding: 5px 0;
+  &:hover {
+    padding: 5px 0px 5px 5px;
+  }
+}
+.font-30 {
+  font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  .theme--light.v-footer {
+    background-position: unset;
+    background-image: unset;
+  }
+}

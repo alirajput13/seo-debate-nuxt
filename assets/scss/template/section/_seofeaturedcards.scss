@@ -1,0 +1,52 @@
+.featurecard-wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(181deg, white 33%, #f5f7fb 66%);
+}
+
+.seo-feature-card-top-spacer {
+  margin-top: 50px;
+}
+
+.seo-feature-card {
+  margin-left: 35px;
+  margin-bottom: 20px;
+  .v-card__text {
+    padding: 45px 70px 35px 70px;
+    .seo-feature-icon {
+      position: absolute;
+      left: -33px;
+      top: 40px;
+      font-size: 24px;
+    }
+    .seo-feature-subtext {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 16px;
+      color: $light-blue;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .seo-feature-card {
+    margin-left: 0;
+    .v-card__text {
+      padding: 35px !important;
+      .seo-feature-icon {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: -33px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1023px) {
+  .seo-feature-card {
+    .v-card__text {
+      padding: 45px 40px 35px 50px;
+    }
+  }
+}

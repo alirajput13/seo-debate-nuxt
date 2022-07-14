@@ -1,0 +1,89 @@
+.growlearn-wrapper {
+  padding-top: 105px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  .growlearn-wrapper {
+    padding-top: 20px;
+  }
+}
+
+.grow-card-row {
+  margin-top: 50px;
+}
+
+.grow-card {
+  .grow-title {
+    font-size: 21px;
+  }
+  .grow-icon {
+    &.v-btn:not(.v-btn--round).v-size--default {
+      height: 64px;
+      min-width: 64px;
+      max-width: 64px;
+    }
+  }
+  .grow-card-content {
+    padding: 20px;
+    .subtext-spacer {
+      margin-top: 20px;
+      color: $light-blue;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .video-card {
+    position: relative;
+    overflow: hidden;
+    .video-card-content {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .grow-card-row {
+    .col-sm-6 {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+  .grow-card {
+    .v-card__text {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.play-btn {
+  position: absolute;
+  right: 30px;
+  bottom: -20px;
+  &.circle-ripple {
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 45%;
+  }
+}
+
+.circle-ripple {
+  background-color: #fff;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  animation: ripple 1s linear infinite;
+}
+
+@keyframes ripple {
+  0% {
+    box-shadow: 0 0 0 0 rgba(#fff, 0.3), 0 0 0 15px rgba(#fff, 0.3);
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(#fff, 0.3), 0 0 0 30px rgba(#fff, 0.3);
+  }
+}

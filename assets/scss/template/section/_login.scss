@@ -1,0 +1,26 @@
+.login-card {
+  border-radius: 8px;
+  .v-card__text {
+    padding: 40px;
+  }
+}
+
+.login-top-spacer {
+  margin-top: 40px;
+}
+
+.login-btn {
+  height: 50px !important;
+  min-width: 92px !important;
+}
+
+@media (max-width: 767px) {
+  .login-card {
+    .v-card__text {
+      padding: 25px;
+    }
+  }
+  .section-bg-img.with-login {
+    background-position: right 20% top 66% !important;
+  }
+}

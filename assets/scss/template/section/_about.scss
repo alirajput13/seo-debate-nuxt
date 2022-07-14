@@ -1,0 +1,26 @@
+.aboutgetboard-bg {
+  padding: 80px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.right-img {
+  position: absolute;
+  right: -3px;
+  top: -53px;
+  max-width: 200px;
+}
+
+.left-img {
+  position: absolute;
+  left: -50px;
+  bottom: -60px;
+  max-width: 200px;
+}
+
+@media (max-width: 767px) {
+  .right-img {
+    right: -30px;
+    top: -138px;
+  }
+}

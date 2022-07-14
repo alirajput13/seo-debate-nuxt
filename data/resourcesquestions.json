@@ -1,0 +1,136 @@
+[
+  {
+    "id": 1,
+    "img":"/img/feature-img.jpg",
+    "link": "how-to-become-seo-expert-in-few-months",
+    "title": "How to become SEO Expert in few months?",
+    "categorytitle": "On Page Seo",
+    "categorylink": "on-page-seo",
+    "date": "Sep 25, 2020",
+    "downloadcount": "25,567",
+    "filetype": "pdf",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "link": "how-to-make-traffic-on-site",
+    "title": "How to make Traffic on site?",
+    "categorytitle": "Off Page Seo",
+    "categorylink": "off-page-seo",
+    "date": "Sep 25, 2020",
+    "downloadcount": "25,567",
+    "filetype": "xls",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "link": "how-to-learn-seo",
+    "title": "How to learn Seo?",
+    "categorytitle": "Technical Seo",
+    "categorylink": "technical-seo",
+    "date": "Sep 25, 2020",
+    "downloadcount": "25,567",
+    "filetype": "ppt",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "link": "which-seo-tools-do-you-regularly-use",
+    "title": "Which SEO tools do you regularly use?",
+    "categorytitle": "Identification",
+    "categorylink": "identification",
+    "date": "Sep 25, 2020",
+    "downloadcount": "25,567",
+    "filetype": "doc",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "link": "how-do-you-approach-keyword-research",
+    "title": "How do you approach keyword research?",
+    "categorytitle": "On Page Seo",
+    "categorylink": "on-page-seo",
+    "date": "Sep 25, 2020",
+    "downloadcount": "25,567",
+    "filetype": "pdf",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "link": "what-are-backlinks",
+    "title": "What are backlinks?",
+    "categorytitle": "Off Page Seo",
+    "categorylink": "off-page-seo",
+    "date": "Sep 25, 2020",
+    "downloadcount": "25,567",
+    "filetype": "xls",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "link": "what-is-page-speed-and-why-does-it-matter",
+    "title": "What is page speed and why does it matter?",
+    "categorytitle": "Technical Seo",
+    "categorylink": "technical-seo",
+    "date": "Sep 25, 2020",
+    "downloadcount": "25,567",
+    "filetype": "ppt",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "link": "what-makes-a-website-search-engine-friendly",
+    "title": "What makes a website search engine friendly?",
+    "categorytitle": "Identification",
+    "categorylink": "identification",
+    "date": "Sep 25, 2020",
+    "downloadcount": "25,567",
+    "filetype": "doc",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "link": "how-did-you-learn-seo",
+    "title": "How did you learn SEO?",
+    "categorytitle": "On Page Seo",
+    "categorylink": "on-page-seo",
+    "date": "Sep 25, 2020",
+    "downloadcount": "25,567",
+    "filetype": "pdf",
+    "featured": false
+  },
+  {
+    "id": 10,
+    "link": "how-can-you-do-seo-for-a-video",
+    "title": "How can you do SEO for a video?",
+    "categorytitle": "Off Page Seo",
+    "categorylink": "off-page-seo",
+    "date": "Sep 25, 2020",
+    "downloadcount": "25,567",
+    "filetype": "xls",
+    "featured": false
+  },
+  {
+    "id": 11,
+    "link": "which-meta-tags-matter",
+    "title": "Which meta tags matter?",
+    "categorytitle": "Technical Seo",
+    "categorylink": "technical-seo",
+    "date": "Sep 25, 2020",
+    "downloadcount": "25,567",
+    "filetype": "ppt",
+    "featured": false
+  },
+  {
+    "id": 12,
+    "link": "what-is-on-page-vs-off-page-seo",
+    "title": "What is on-page vs off-page SEO?",
+    "categorytitle": "Identification",
+    "categorylink": "identification",
+    "date": "Sep 25, 2020",
+    "downloadcount": "25,567",
+    "filetype": "doc",
+    "featured": false
+  }
+  
+]

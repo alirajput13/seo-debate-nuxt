@@ -1,0 +1,21 @@
+.ask-question-banner {
+    padding: 5px 15px 15px 15px !important;
+}
+.meta-counter-widget {
+  margin-top: 30px;
+}
+
+.meta-digits {
+  font-size: 24px;
+  color: $blue;
+}
+
+.category-card-spacer {
+  margin-top: -50px;
+}
+
+@media (max-width: 767px) {
+  .category-card-spacer {
+    margin-top: 20px;
+  }
+}

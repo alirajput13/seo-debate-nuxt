@@ -1,0 +1,112 @@
+.v-application .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  .nav-item {
+    transition: 0.2s ease-in;
+    position: relative;
+    
+    .nav-link {
+      text-decoration: none;
+      line-height: $nav-link-height;
+      
+      padding: $nav-link-padding;
+      font-size: $nav-link-font-size;
+      color: $nav-link-font-color;
+      font-family: $nav-link-font-family;
+
+    }
+    &:hover,
+    &.active {
+      > .nav-link{
+        color: $nav-link-font-hover-color;
+      }
+    }
+    >.nav-link.nuxt-link-exact-active {
+      color: $nav-link-font-hover-color;
+    }
+    .first-dd{
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        list-style: none;
+        padding: 5px;
+        margin:0px;
+        border-radius: 4px;
+        color: $nav-link-font-hover-color;
+        min-width: 250px;
+        li .nav-link{
+          transition:0.15s ease-in;  
+          padding: $nav-sublink-padding;
+          line-height: 46px;
+          &:hover{
+            color:$primary;
+            padding-left:20px; 
+          }
+        }
+    }
+    &:hover .first-dd{
+      display: block;
+      visibility: visible;
+      animation: show-animation .5s;
+      -webkit-animation: show-animation .5s;
+      opacity: 1;
+    }
+    
+  }
+}
+.app-header .v-toolbar__content{
+  padding:0px 16px;
+}
+.theme--light .first-dd{
+  background: white;
+  box-shadow: 0px 3px 12px 0px rgba(104, 113, 134, 0.2);
+}
+
+
+
+/* --------------------------------------
+    Custom Slide Show Animation
+---------------------------------------*/
+
+@-webkit-keyframes show-animation {
+    0% {
+        -webkit-transform: translateY(70px);
+        opacity: 0
+    }
+    to {
+        -webkit-transform: translateY(0);
+        opacity: 1
+    }
+}
+
+@keyframes show-animation {
+    0% {
+        -webkit-transform: translateY(60px);
+        transform: translateY(60px);
+        opacity: 0
+    }
+    to {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+
+.v-application .link{
+  text-decoration:none;
+  color:$nav-link-font-color;
+  &:hover{
+    color:$primary;
+  }
+}
+.mob-navigation{
+  height:calc(100vh - 100px);
+  overflow: auto;
+}
+.v-application--is-ltr .v-list-group--no-action > .v-list-group__items > .v-list-item.mobile-nav-sub{
+  padding-left:30px;
+}

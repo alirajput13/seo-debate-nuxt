@@ -1,0 +1,57 @@
+// ================================== //
+// Required Files
+// ================================== //
+@import "~vuetify/src/styles/styles.sass";
+@import "custom-variable";
+
+// ================================== //
+// Vuetify overrides
+// ================================== //
+@import "vuetify/overrides";
+
+// ================================== //
+// Template Common Components
+// ================================== //
+@import "template/fonts";
+@import "template/header";
+@import "template/footer";
+@import "template/navigation";
+@import "template/animation";
+@import "template/sprite-setting";
+
+// ================================== //
+// Sections
+// ================================== //
+@import "template/section/about";
+@import "template/section/banner";
+@import "template/section/growlearn";
+@import "template/section/featured";
+@import "template/section/seofeaturedcards";
+@import "template/section/learnseo";
+@import "template/section/latest";
+@import "template/section/newsletter";
+@import "template/section/articlesgrid";
+@import "template/section/questionlist";
+@import "template/section/askquestionbannercontent";
+@import "template/section/faqs";
+@import "template/section/c2a";
+@import "template/section/answerlist";
+@import "template/section/resources";
+@import "template/section/login";
+
+// ================================== //
+// colors
+// ================================== //
+@import "color/lighten";
+
+// ================================== //
+// materialdesignicons
+// ================================== //
+
+@import "~@mdi/font/scss/variables";
+@import "~@mdi/font/scss/functions";
+@import "custom_path.scss";
+@import "~@mdi/font/scss/core";
+@import "~@mdi/font/scss/icons";
+@import "~@mdi/font/scss/extras";
+@import "~@mdi/font/scss/animated";
