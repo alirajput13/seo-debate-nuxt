@@ -1,7 +1,6 @@
 <template>
     <div>
         <div
-            class="section-bg-img bg-grediant-before"
             :style="{
                 backgroundImage: `url('/img/article-bg.jpg')`
             }"

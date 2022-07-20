@@ -5,7 +5,7 @@
     <v-card class="article-card elevation-0 border-all">
         <NLink
             :to="{ name: 'videos-slug', params: { slug: video.slug } }"
-            class="position-relative d-flex align-center justify-center"
+            class="position-relative d-flex"
         >
             <v-img
                 height="250"
@@ -33,9 +33,9 @@
                 <div class="d-flex align-center article-cat-view">
                     <NLink
                         :to="{name: 'slug',params: { slug: video.category.slug }}"
-                        class="text-decoration-none"
+                        class="text-decoration-none d-flex"
                     >
-                        <span class="badge primary-lighten-5 primary--text">{{
+                        <span class="badge primary-lighten-5 py-1 primary--text">{{
                             video.category.title
                         }}</span>
                     </NLink>

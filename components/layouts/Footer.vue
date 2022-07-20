@@ -96,10 +96,10 @@ export default {
             data: [
                 { id: 1, to: "/questions/", title: "Questions" },
                 { id: 2, to: "/identification/", title: "Identification" },
-                { id: 3, to: "#", title: "Privacy Policy" },
+                { id: 3, to: "/privacyPolicy/", title: "Privacy Policy" },
                 { id: 4, to: "/videos/", title: "Videos" },
                 { id: 5, to: "/technical-seo/", title: "Technical SEO" },
-                { id: 6, to: "#", title: "Terms \u0026 Condition" },
+                { id: 6, to: "/termsConditions/", title: "Terms \u0026 Condition" },
                 { id: 7, to: "/articles/", title: "Articles" },
                 { id: 8, to: "/on-page-seo/", title: "On-Page SEO" },
                 { id: 9, to: "/about/", title: "About Us" },

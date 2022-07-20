@@ -12,12 +12,16 @@ export const state = () => ({
     videoLayout: [],
     articleLayout: [],
     resourceLayout: [],
+    privacyLayout:[],
     toolLayout: [],
+    termsConditionLayout:[],
     latestCategories: [],
 
+    allTermsCondition:[],
     allArticles: [],
     allVideos: [],
     allResources: [],
+    allPrivacy:[],
     allQuestions: [],
     allTopics: [],
 
@@ -34,11 +38,17 @@ export const getters = {
     resourceLayout: state => state.resourceLayout,
     toolLayout: state => state.toolLayout,
     latestCategories: state => state.latestCategories,
+    privacyLayout: state => state.privacyLayout,
+    termsConditionLayout: state => state.termsConditionLayout,
 
     allArticles: state => state.allArticles,
     allVideos: state => state.allVideos,
     allResources: state => state.allResources,
     allQuestions: state => state.allQuestions,
+    allPrivacy: state => state.allPrivacy,
+    allTermsCondition: state => state.allTermsCondition,
+
+
 
     allTopics: state => state.allTopics,
     allFeatured: state => state.featured,
@@ -60,6 +70,10 @@ export const mutations = {
     // This is for updating resource questions
     update_resources(state, payload) {
         state.allResources = payload;
+    },
+    // This is for upadting the privacy policy
+    update_privacy(state, payload) {
+        state.allPrivacy = payload;
     },
     // This is for updating questions
     update_questions(state, payload) {
@@ -132,6 +146,12 @@ export const mutations = {
     },
     update_resource_layout(state, payload) {
         state.resourceLayout = payload;
+    },
+    update_privacy_layout(state, payload) {
+        state.privacyLayout = payload;
+    },
+    update_terms_condition_layout(state, payload) {
+        state.termsConditionLayout = payload;
     },
     update_tool_layout(state, payload) {
         state.toolLayout = payload;

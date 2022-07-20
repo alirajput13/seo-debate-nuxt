@@ -85,6 +85,72 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.btn-readmore {
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  position: relative;
+  padding-left: 50px;
+  padding-right: 20px;
+  display: inline-block;
+  align-items: center;
+  height: 50px;
+  line-height: 50px;
+  z-index: 3;
+  transition: 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+  position: relative;
+  .plus-icon {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  .read-text {
+    &:before {
+      background-color: #3669e9;
+      z-index: -1;
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 50px;
+      height: 50px;
+      box-shadow: 0 2px 4px rgb(107 124 147 / 6%);
+      border-radius: 25px;
+      transition: 0.5s cubic-bezier(0.25, 0.8, 0.25, 1) 0s;
+    }
+  }
+}
+
+.article-title.border-line {
+  background-image: linear-gradient(180deg, transparent 96%, #3669e9 0);
+  transition: background-size 0.6s ease;
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+}
+
+.col-md-6.col-lg-4:nth-child(1),
+.col-md-6.col-lg-4:nth-child(2),
+.col-md-6.col-lg-4:nth-child(3) {
+  .article-card {
+    border-top: 0px !important;
+    padding-top: 0 !important;
+  }
+}
+
+.article-card {
+  &:hover {
+    .btn-readmore .read-text:before {
+      width: 100%;
+    }
+    .article-title.border-line {
+      background-size: 100% 100%;
+    }
+  }
+}
+</style>
 .btn-readmore1 {
   color: #fff;
   font-size: 13px;

@@ -79,7 +79,7 @@
                     >
                         <ArticlesGrid :blog="blog" />
                     </v-col>
-                    <v-col md="12">
+                    <v-col class="col-12">
                         <div
                             class="d-md-flex justify-content-space-between mt-10"
                         >
